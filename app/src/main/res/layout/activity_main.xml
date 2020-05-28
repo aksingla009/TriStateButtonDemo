@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <com.widgt.tristatebutton.RepeatButton
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            app:repeat_state="off"
+            app:src_repeat_all="@drawable/repeat_enable"
+            app:src_repeat_off="@drawable/repeat_disable"
+            app:src_repeat_one="@drawable/repeat_enable_1" />
+    </LinearLayout>
+
+</RelativeLayout>
